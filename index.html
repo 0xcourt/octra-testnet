@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Octra Wallet Generator</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f9f9f9; }
+    button { padding: 0.5rem 1rem; font-size: 16px; }
+    pre { background: #eee; padding: 1rem; border-radius: 5px; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>🪙 Octra Wallet Generator</h1>
+  <button onclick="generate()">Generate Wallet</button>
+  <pre id="output">Click the button to generate...</pre>
+
+  <script>
+    async function generate() {
+      const res = await fetch("/generate", { method: "POST" });
+      const data = await res.json();
+      document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>
