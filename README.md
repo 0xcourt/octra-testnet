@@ -32,3 +32,12 @@ bun run wallet-gen.ts
 
 you can next to the step
 
+
+- claim testnet tokens using your generated address: 
+https://faucet.octra.network 
+
+- verify on
+https://octrascan.io
+
+- join discord & wait for next steps
+https://discord.gg/octra
