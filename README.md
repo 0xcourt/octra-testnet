@@ -1,2 +1,1 @@
-# octra-testnet
-Octra Wallet Generator
+# Octra Wallet Generator
