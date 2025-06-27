@@ -10,7 +10,7 @@ Generate mnemonic phrases, derive Ed25519 keypairs, and create testnet addresses
 - BIP39 mnemonic generation
 - Ed25519 keypair derivation
 - Octra address generation (Base58 + SHA256)
-- Minimal web UI with live JSON output
+
 
 ---
 
@@ -23,8 +23,12 @@ npm install -g bun
 ```
 
 
-```bash
+```
 git clone https://github.com/0xcourt/octra-testnet.git
 cd octra-testnet
 bun install
 bun run wallet-gen.ts
+```
+
+you can next to the step
+
