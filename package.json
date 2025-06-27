@@ -1,0 +1,15 @@
+{
+  "name": "octra-wallet-generator",
+  "version": "1.0.0",
+  "description": "A simple Bun.js-based Octra wallet generator for the testnet.",
+  "scripts": {
+    "start": "bun run wallet-gen.ts"
+  },
+  "keywords": ["wallet", "bip39", "octra", "bun", "ed25519", "base58", "crypto"],
+  "author": "yourgithubhandle",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "tweetnacl": "^1.0.3"
+  }
+}
