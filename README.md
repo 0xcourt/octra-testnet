@@ -18,6 +18,11 @@ Generate mnemonic phrases, derive Ed25519 keypairs, and create testnet addresses
 
 > Prerequisite: [Bun](https://bun.sh) installed
 
+```
+npm install -g bun
+```
+
+
 ```bash
 git clone https://github.com/0xcourt/octra-testnet.git
 cd octra-testnet
